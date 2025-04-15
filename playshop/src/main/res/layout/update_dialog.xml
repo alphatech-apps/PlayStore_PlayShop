@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/updt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/permission_bg_round_wb"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+
+                android:text="UPDATE"
+                android:textColor="@color/DayBlack_NightWhite"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/update_message1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:text="Islamic Youtube recommends that you Update to the latest version."
+                android:textColor="@color/DayBlack_NightWhite"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/update_message2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:text="A new version is ready to install. Do you want to update now?"
+                android:textColor="@color/DayBlack_NightWhite"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/current_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="522.54.5."
+                android:textColor="@color/DayBlack_NightWhite"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/update_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:text="522.54.5."
+                android:textColor="@color/DayBlack_NightWhite"
+                android:textSize="16sp" />
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity=""
+                android:paddingLeft="10dp"
+                android:paddingTop="20dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="20dp">
+
+                <TextView
+                    android:id="@+id/cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/blank_stroke_button_background"
+                    android:paddingLeft="14dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="14dp"
+                    android:paddingBottom="10dp"
+                    android:text="No Thanks"
+                    android:textColor="#00A008"
+                    android:textSize="16sp"
+
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.525" />
+
+                <TextView
+                    android:id="@+id/ok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_round_bg"
+                    android:paddingLeft="18dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="18dp"
+                    android:paddingBottom="10dp"
+                    android:text="Update"
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="9dp"
+                android:background="@android:color/darker_gray" />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/ok2"
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/googleplay" />
+
+
+        </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="17dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rate Us"
+                    android:textColor="@color/DayBlack_NightWhite"
+                    android:textSize="20dp"
+                    android:fontFamily="sans-serif-condensed"
+                     android:layout_margin="10dp"
+                    android:layout_gravity="center" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/DayBlack_NightWhite"
+                        android:textSize="16sp"
+                        android:text="Rate us 5 star if you Love our App."
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/DayBlack_NightWhite"
+                        android:text="We hope this app turns useful to you and in case give us a 5 star and a positive review on Google Play, it truly helps, thank you.!"
+                        android:textSize="15sp"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_gravity="center" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/star01"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_margin="0dp"
+                            android:padding="7dp"
+                            android:src="@drawable/ic_star_outline" />
+
+                        <ImageView
+                            android:id="@+id/star02"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_margin="0dp"
+                            android:padding="7dp"
+                            android:src="@drawable/ic_star_outline" />
+
+                        <ImageView
+                            android:id="@+id/star03"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_margin="0dp"
+                            android:padding="7dp"
+                            android:src="@drawable/ic_star_outline" />
+
+                        <ImageView
+                            android:id="@+id/star04"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_margin="0dp"
+                            android:padding="7dp"
+                            android:src="@drawable/ic_star_outline" />
+
+                        <ImageView
+                            android:id="@+id/star05"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_margin="0dp"
+                            android:padding="7dp"
+                            android:src="@drawable/ic_star_outline" />
+
+                    </LinearLayout>
+
+<!--
+                    <RatingBar
+                        android:id="@+id/ratingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:numStars="5"
+                        android:rating="3"
+                        android:stepSize="1.00" />
+-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/rate_txt_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="12dp"
+                            android:text="Click here to RATE it"
+                            android:background="?attr/selectableItemBackground"
+                            android:textStyle="bold"
+                            android:fontFamily="sans-serif-condensed-light"
+                            android:textColor="?attr/colorPrimary"
+                            android:textSize="16sp" />
+                        <TextView
+                            android:id="@+id/btnRemindLater"
+                            android:fontFamily="sans-serif-condensed-light"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="12dp"
+                            android:text="Remind me later"
+                            android:background="?attr/selectableItemBackground"
+                             android:textColor="?attr/colorControlNormal"/>
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

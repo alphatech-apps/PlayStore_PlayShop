@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="DayBlack_NightWhite">#FFFFFF</color>
+    <color name="DayWhite_NightBlack">#000000</color>
+    <color name="DayLight_NightDark">#464646</color></resources>
