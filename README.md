@@ -26,26 +26,21 @@ Step 2. Add the dependency
 
  Step 3. add on Remote class
 
-{
 import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
-
 import com.jakir.playshop.PlayShop_TryOurApps;
 import com.jakir.playshop.PlayShop_Update;
 import com.jakir.playshop.PlayShop_VersionChecker;
 import com.jakir.playstore.PlayStore_RateUs;
 import com.jakir.playstore.PlayStore_TryOurApps;
-
 import java.util.Calendar;
 
 
- Created by JAKIR HOSSAIN on 3/16/2025.
 
 public class DoRemoteJob {
-   
-Context context;
-    boolean isPlayStoreVersion = true;
+   private Context context;
+   private boolean isPlayStoreVersion = true;
 
     public DoRemoteJob(Context context) {
         this.context = context;
@@ -106,4 +101,4 @@ Context context;
             return 0;
         }
     }
-}}
+
