@@ -38,9 +38,9 @@ import com.jakir.playstore.PlayStore_TryOurApps;
 
 import java.util.Calendar;
 
-//
-// Created by JAKIR HOSSAIN on 3/16/2025.
-//
+
+ Created by JAKIR HOSSAIN on 3/16/2025.
+
 public class DoRemoteJob {
     Context context;
     boolean isPlayStoreVersion = true;
