@@ -79,11 +79,11 @@ public class DoRemoteJob {
             int currentVersion = getCurrentVersionCode(context);
 
             if (versionCode > currentVersion) {
-//                Toast.makeText(context, "Server version: " + versionCode, Toast.LENGTH_SHORT).show();
-//                Toast.makeText(context, "Update Available!", Toast.LENGTH_LONG).show();
+                Toast.makeText(context, "Server version: " + versionCode, Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Update Available!", Toast.LENGTH_LONG).show();
                 new PlayShop_Update(context, "apk-debug.apk", "http://localhost:8080/app-debug.apk").updateApp();
             } else {
-//                Toast.makeText(context, "App is Up to Date", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "App is Up to Date", Toast.LENGTH_SHORT).show();
             }
         });
 
