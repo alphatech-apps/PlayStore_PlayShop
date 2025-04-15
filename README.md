@@ -26,6 +26,7 @@ Step 2. Add the dependency
 
  Step 3. add on Remote class
 
+{
 import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
@@ -42,7 +43,8 @@ import java.util.Calendar;
  Created by JAKIR HOSSAIN on 3/16/2025.
 
 public class DoRemoteJob {
-    Context context;
+   
+Context context;
     boolean isPlayStoreVersion = true;
 
     public DoRemoteJob(Context context) {
@@ -104,4 +106,4 @@ public class DoRemoteJob {
             return 0;
         }
     }
-}
+}}
